@@ -1,5 +1,7 @@
 # this is the home page
 
+<ul>
 {% for post in site.posts %}
-1. [{{ post.title }}]({{ post.url }})
+<li>[{{ post.title }}]({{ post.url }})</li>
 {% endfor %}
+</ul>
